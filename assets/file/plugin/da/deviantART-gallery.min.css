@@ -1,0 +1,2 @@
+#ss__wrapper {display: flex;flex-wrap: wrap;justify-content: flex-start;width: 100%;}
+.full-height, .full-width {max-height: 240px;margin: 0.5em;}

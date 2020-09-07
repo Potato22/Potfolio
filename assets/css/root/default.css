@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:0;
+    max-width: 100%;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: initial;
+}
+.material-icons-round {
+    vertical-align: middle;
+}

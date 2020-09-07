@@ -1,0 +1,91 @@
+/*variables*/
+:root {
+    --bgcolor:rgb(4, 15, 24);
+    --main: rgb(255, 255, 255);
+    --second: rgb(165, 165, 165);
+    --accent: rgb(161, 225, 255);
+
+    --icon: rgb(255, 255, 255);
+}
+
+.navpadding {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0.5em;
+    /* HOW TO FIX THE FUCKING OVERLAPPING BULLSHIT 101: */
+    box-sizing: border-box;
+    /* THANK YOU FOR COMING TO MY TED TALK */
+    display: flex;
+    background-color: var(--bgcolor);
+
+}
+.navwrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: url("../file/img/local/Pot.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.secondwrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socialwrapper {
+    position: relative;
+    display:flex;
+    width: initial;
+    height: initial;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 3em;
+}
+.navbutton {
+    margin-right: 0.5em;
+    height: 100%;
+}
+
+.socicon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigator {
+    display: flex;
+}
+.directory {
+    margin-left: 0.5em;
+}
+.navdir {
+    position: relative;
+    color: white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-family: IBM Plex Sans Condensed;
+    font-weight: 700;
+    transition: 0.2s;
+}
+.navdir:hover {
+    color: var(--accent);
+}
