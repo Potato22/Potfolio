@@ -1,12 +1,4 @@
-/*variables*/
-:root {
-    --bgcolor:rgb(4, 15, 24);
-    --main: rgb(255, 255, 255);
-    --second: rgb(165, 165, 165);
-    --accent: rgb(161, 225, 255);
 
-    --icon: rgb(255, 255, 255);
-}
 
 .navpadding {
     position: sticky;
@@ -18,7 +10,9 @@
     box-sizing: border-box;
     /* THANK YOU FOR COMING TO MY TED TALK */
     display: flex;
-    background-color: var(--bgcolor);
+    background-color: var(--translucentbgcolor);
+    z-index: 99;
+    backdrop-filter: blur(4px);
 
 }
 .navwrapper {
@@ -82,7 +76,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-    font-family: IBM Plex Sans Condensed;
+    font-family: var(--tec);
     font-weight: 700;
     transition: 0.2s;
 }

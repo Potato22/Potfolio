@@ -1,0 +1,12 @@
+[data-aos][data-aos][data-aos-easing=sb],
+body[data-aos-easing=sb] [data-aos] {
+ transition-timing-function:cubic-bezier(0,1.51,.79,1);
+}
+[data-aos][data-aos][data-aos-easing=hard-ease-in-out],
+body[data-aos-easing=hard-ease-in-out] [data-aos] {
+ transition-timing-function:cubic-bezier(.77,.42,.2,.99);
+}
+[data-aos][data-aos][data-aos-easing=flick],
+body[data-aos-easing=flick] [data-aos] {
+ transition-timing-function:cubic-bezier(0,.63,0,1);
+}

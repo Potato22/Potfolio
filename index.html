@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="assets/file/plugin/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="assets/css/root/aoscustom.css">
 
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <div id="nav" class="navpadding">
+    <div id="nav" class="navpadding" data-aos="fade-down" data-aos-duration="3000" data-aos-easing="hard-ease-in-out">
         <div class="navwrapper">
             <div class="logo"></div>
             <div class="secondwrapper">
@@ -54,18 +55,47 @@
     </div>
 
     <div class="pagehero">
-        <div class="imagecomp" data-aos="fade-right">
-            <div class="mary" data-aos="fade-left"></div>
-            <div class="bgaes"></div>
-            <div class="bgaes1"></div>
+        <div class="imagecomp" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="hard-ease-in-out">
+            <div class="mary"></div>
+
         </div>
-        <div class="textherowrapper">
+        <div class="textherowrapper" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="hard-ease-in-out">
             <div class="texthero">
                 Hi, I create <br> artworks.
             </div>
+            <span class="liltexthero" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="200" data-aos-easing="sb">Specially ponies!</span>
         </div>
     </div>
-
+    <div class="directorywrapper">
+        <div class="directoryitem who" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400" data-aos-easing="flick">
+            <div class="directoryimg"></div>
+            <div class="directorytextcont">
+                <span class="directoryitemtitle">Who?</span>
+                <p class="directoryitemdesc">Wh- who am I??</p>
+            </div>
+        </div>
+        <div class="directoryitem portfolio" data-aos="fade-up" data-aos-delay="300" data-aos-duration="400" data-aos-easing="flick">
+            <div class="directoryimg"></div>
+            <div class="directorytextcont">
+                <span class="directoryitemtitle">Portfolio</span>
+                <p class="directoryitemdesc">Have a brief look to my latest works</p>
+            </div>
+        </div>
+        <div class="directoryitem extra" data-aos="fade-up" data-aos-delay="400" data-aos-duration="400" data-aos-easing="flick">
+            <div class="directoryimg"></div>
+            <div class="directorytextcont">
+                <span class="directoryitemtitle">Extra</span>
+                <p class="directoryitemdesc">QNA's and some others</p>
+            </div>
+        </div>
+        <div class="directoryitem about" data-aos="fade-up" data-aos-delay="500" data-aos-duration="400" data-aos-easing="flick">
+            <div class="directoryimg"></div>
+            <div class="directorytextcont">
+                <span class="directoryitemtitle">About</span>
+                <p class="directoryitemdesc">Technical things</p>
+            </div>
+        </div>
+    </div>
     <script>
         AOS.init();
     </script>

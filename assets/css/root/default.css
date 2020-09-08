@@ -1,3 +1,20 @@
+/*variables*/
+:root {
+    --bgcolor:rgb(4, 15, 24);
+    --translucentbgcolor:rgba(4, 15, 24, 0.9);
+    --elmcolormain: rgb(8, 22, 34);
+    --elmcolorfallback: rgb(12, 30, 46);
+
+    --main: rgb(255, 255, 255);
+    --second: rgb(165, 165, 165);
+    --accent: rgb(161, 225, 255);
+    --title: "IBM Plex Mono", sans-serif;
+    --par: "IBM Plex Sans", sans-serif;
+    --tec: "IBM Plex Sans Condensed", sans-serif;
+    --sec: "Roboto", sans-serif;
+
+    --icon: rgb(255, 255, 255);
+}
 body {
     margin: 0;
     padding: 0;
@@ -11,4 +28,7 @@ a:link, a:visited {
 }
 .material-icons-round {
     vertical-align: middle;
+}
+.placeholder {
+    height: 500px;
 }
